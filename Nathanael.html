@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathanael - Groupe 6</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .member-profile {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .member-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .member-header h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .member-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .info-section {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+        
+        .info-section h3 {
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #95a5a6;
+            color: white;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header avec numéro du groupe et nom du membre -->
+    <header class="header">
+        <div class="container">
+            <h1>GROUPE 6 - Nathanael</h1>
+            <p>Page personnelle de Nathanael</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Nathanael.html" class="active">Nathanael</a></li>
+                <li><a href="ASSAKO.html">ASSAKO</a></li>
+                <li><a href="DJOMNANG.html">DJOMNANG</a></li>
+                <li><a href="MEMBRE4.html">MEMBRE 4</a></li>
+                <li><a href="MEMBRE5.html">MEMBRE 5</a></li>
+                <li><a href="MEMBRE6.html">MEMBRE 6</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main class="main-content">
+        <div class="container">
+            <a href="index.html" class="back-button">← Retour à l'accueil</a>
+            
+            <div class="member-profile">
+                <div class="member-header">
+                    <h2>Nathanael</h2>
+                    <p>Membre actif du Groupe 1</p>
+                </div>
+                
+                <div class="member-info">
+                    <div class="info-section">
+                        <h3>Présentation</h3>
+                        <p>Je suis Nathanael, membre du Groupe 1. Je participe activement au développement de ce projet web collaboratif en contribuant au code HTML/CSS et en utilisant Git pour la gestion de version.</p>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h3>Compétences</h3>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript de base</li>
+                            <li>Git & GitHub</li>
+                            <li>Design responsive</li>
+                            <li>Travail en équipe</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h3>Contributions au projet</h3>
+                        <ul>
+                            <li>Développement de la structure HTML</li>
+                            <li>Styles CSS pour la navigation</li>
+                            <li>Optimisation responsive</li>
+                            <li>Tests et débogage</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h3>Objectifs d'apprentissage</h3>
+                        <p>À travers ce projet, je souhaite améliorer mes compétences en développement web frontend et apprendre les bonnes pratiques de travail collaboratif avec Git.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer avec copyright -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Groupe 6 - Projet Web Collaboratif. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
